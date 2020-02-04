@@ -14,7 +14,12 @@ def hopper
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
   programmer_hash[:grace_hopper]
+=======
+
+programmer_hash[:grace_hopper]
+>>>>>>> bedb0667a26b557570944be43575e5fd4eeb7d8d
 end
 
 hopper
@@ -37,8 +42,12 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
      
   programmer_hash[:alan_kay][:known_for] 
+=======
+     programmer_hash[:alan_kay][:known_for] 
+>>>>>>> bedb0667a26b557570944be43575e5fd4eeb7d8d
 end
 
 alan_kay_is_known_for
@@ -88,6 +97,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
 
   programmer_hash[:yukihiro_matsumoto] = {
     known_for: "Ruby",
@@ -96,6 +106,9 @@ def adding_matz
     }
     
   programmer_hash
+=======
+programmer_hash[:dennis_ritchie][:languages][0]
+>>>>>>> bedb0667a26b557570944be43575e5fd4eeb7d8d
     
     
 # Here is the learn.co way of doing it.    
